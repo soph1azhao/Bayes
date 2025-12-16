@@ -1,24 +1,36 @@
-
 # gbayesdesign
 
-Small starter package for Bayesian design and power calculations.
+## Requirements
 
-Authors and affiliations:
-- Belaid Moa — Digital Research Alliance of Canada, Victoria, BC V8P 5C2, Canada
-- Xuekui Zhang — Department of Mathematics and Statistics, University of Victoria, Victoria, BC V8P 5C2, Canada
-- Qianyun Zhao — Department of Mathematics and Statistics, University of Victoria, Victoria, BC V8P 5C2, Canada
+### Hardware
+- CUDA-enabled NVidia GPU
 
-Structure
-- src/gbayesdesign - package code
-- examples - example scripts
-- input, results, figures, scripts - placeholders for project data and utilities
+### Packages
+- CuPy
+- NumPy
+- SciPy
 
-Install (editable)
-```
-pip install -e .[plots,full]
-```
+## Installation
 
-Example
-```
-python examples/powerz_example_intrm.py
-```
+1. Install requirements: 
+
+    ```
+    pip install numpy scipy cupy
+    ```
+
+2. Navigate to package root: 
+
+    ```
+    cd ~/gbayesdesign_clean
+    ```
+3. Use setuptools to install: 
+
+    ```
+    pip install -e .
+    ```
+
+4. (Optional) Install testing interface packages
+
+    ```
+    pip install --no-index pandas matplotlib
+    ```

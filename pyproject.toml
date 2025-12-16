@@ -1,33 +1,11 @@
-
 [build-system]
-requires = ["setuptools>=61.0", "wheel"]
+requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "gbayesdesign"
-version = "0.1.0"
-description = "Small toolkit for Bayesian design and power calculations and sampling."
-readme = "README.md"
-requires-python = ">=3.9"
-
 authors = [
-  { name = "Belaid Moa", email = "" },
-  { name = "Xuekui Zhang", email = "" },
-  { name = "Qianyun Zhao", email = "" }
+    { name = "Belaid Moa" },
+    { name = "Shelley Gao" }
 ]
-
-license = { text = "MIT" }
-
-dependencies = [
-  "numpy>=1.21",
-]
-
-[project.optional-dependencies]
-full = ["scipy>=1.7"]
-plots = ["matplotlib>=3.4"]
-
-[tool.setuptools]
-package-dir = {"" = "src"}
-
-[tool.setuptools.packages.find]
-where = ["src"]
+version = "0.0.1.dev1"
