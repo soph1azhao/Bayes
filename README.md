@@ -1,5 +1,5 @@
-```markdown
-# BayesianDesign4A
+
+# gbayesdesign
 
 Small starter package for Bayesian design and power calculations.
 
@@ -14,14 +14,11 @@ Structure
 - input, results, figures, scripts - placeholders for project data and utilities
 
 Install (editable)
-```bash
+```
 pip install -e .[plots,full]
 ```
 
 Example
-```bash
-python examples/powerz_example_intrm.py
 ```
-
-License: MIT (add LICENSE file if desired)
+python examples/powerz_example_intrm.py
 ```
