@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --account=rrg-ubcxzh          # Account name
+#SBATCH --account=your-acount         # Account name
 #SBATCH --job-name=fig2_true
 #SBATCH --tasks-per-node=1            # Number of parallel tasks per node
 #SBATCH --cpus-per-task=1             # Number of CPUs per task
@@ -21,7 +21,7 @@ fi
 source "$ENV_DIR/bin/activate"
 
 # Navigate to the examples directory
-cd ~/projects/def-ubcxzh/qzhao30/bayesian-design4a/examples
+cd ~/bayesian-design4a/examples
 
 # Display job index passed as an argument
 echo "Job index: $1"
